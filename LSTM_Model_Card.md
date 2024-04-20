@@ -1,16 +1,3 @@
----
-jupyter:
-  colab:
-  kernelspec:
-    display_name: Python 3
-    name: python3
-  language_info:
-    name: python
-  nbformat: 4
-  nbformat_minor: 0
----
-
-::: {.cell .markdown id="zObwkaI8qKaB"}
 # Fire Prediction Model
 
 -   Model Name: Alberta Wildfire Occurence Prediction
@@ -21,9 +8,7 @@ jupyter:
     -   Raymond Xu, E.I.T.\
     -   Mohammed Shah, E.I.T.
 -   Release Date: 2024-04-19
-:::
 
-::: {.cell .markdown id="QvWtYZU6qP0D"}
 # Intended Use
 
 -   Background:
@@ -55,9 +40,7 @@ strategies.*
 
 -   Out-of-Scope Use Cases: Prediction of other natural disasters,
     non-environmental applications.
-:::
 
-::: {.cell .markdown id="VbG0UGdaqW3I"}
 # Model/Data Description
 
 -   Data Used: Wildfire dataset sourced from;
@@ -77,9 +60,7 @@ strategies.*
     optimizer used with an adopted learning rate between 0.0001 to 0.02.
     Binary cross-entropy loss function. Batch size of 64. Time step was
     not utilized.
-:::
 
-::: {.cell .markdown id="3N3e_YFLqqTK"}
 # Training and Evaluation
 
 -   Model trained on GPU (AMD Ryzen 7) using TensorFlow 2.0 and Python
@@ -87,9 +68,7 @@ strategies.*
 -   Evaluation Metrics: Accuracy, Precision, Recall, F1 Score, ROC-AUC.
 -   Baseline Comparison: Compared against Logistic Regression and Random
     Forest models.
-:::
 
-::: {.cell .markdown id="Z4WASFFUq8QI"}
 # Ethical Considerations
 
 -   Fairness and Bias: Considerations of fairness and bias arise when
@@ -117,9 +96,7 @@ strategies.*
     controls and conducting regular security audits, in order to
     maintain the security and confidentiality regarding both the data
     and the model.
-:::
 
-::: {.cell .markdown id="5axof1qBr9xh"}
 # Limitations and Recommendations
 
 -   Known Limitations: The model might encounter certain limitations,
@@ -145,13 +122,7 @@ strategies.*
     ethical implementation. In addition, establishing user training and
     awareness programs may promote responsible and informed utilization
     of the model by all stakeholders.
-:::
 
-::: {.cell .markdown id="Cpjj_odKu2g8"}
 # Additional Information
 
 -   Contact Information: <rxu6@ualberta.ca>, <caitken@ualberta.ca>
-:::
-
-::: {.cell .markdown id="3tb7KShnvGzz"}
-:::
