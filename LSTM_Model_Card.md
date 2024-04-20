@@ -80,23 +80,6 @@ strategies.*
     eliminate errors during model training and ensuring a diverse
     representation in the training data to mitigate demographic biases.
 
--   Privacy: Privacy is of paramount significance, especially when it
-    comes to the welfare of individuals impacted by wildfires as well as
-    those represented in the training data. It is essential that we
-    protect the privacy rights of individuals by concealing or
-    aggregating personal information, such as exact location data or
-    identifiable defining features. It is important to ensure compliance
-    with relevant privacy regulations, such as GDPR or HIPAA, throughout
-    the data handling process.
-
--   Security: Addressing security concerns is essential in order to
-    ensure the confidentiality of the model and datasets from potential
-    threats. It is important to implement strong security measures, such
-    as encryption of confidential information, establishing access
-    controls and conducting regular security audits, in order to
-    maintain the security and confidentiality regarding both the data
-    and the model.
-
 # Limitations and Recommendations
 
 -   Known Limitations: The model might encounter certain limitations,
